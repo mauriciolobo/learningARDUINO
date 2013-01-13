@@ -12,14 +12,14 @@ void setup(){
 
 void loop(){
   int lumiens = analogRead(rfPin);
-  if(lumiens <= 500) fase(0);
-  if(lumiens > 500) fase(1);
-  if(lumiens > 600) fase(2);
-  if(lumiens > 700) fase(3);
+  if(lumiens <= 500) phase(0);
+  if(lumiens > 500) phase(1);
+  if(lumiens > 600) phase(2);
+  if(lumiens > 700) phase(3);
   Serial.println(lumiens);
 }
 
-void fase(int which){
+void phase(int which){
   switch(which){
     case 1:
       digitalWrite(greenPin, HIGH);
