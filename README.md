@@ -7,3 +7,4 @@ Just learning how to Arduino.
 
 ###Do not blame for the code.
 I'm learning. I don't care about the code yet.
+**Neither naming.
